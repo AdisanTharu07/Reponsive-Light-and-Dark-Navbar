@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Light and Dark  Navbar Source Code</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class='bx bx-menu-alt-left' onclick="menuBtn()"></i>
+            <a href="#">Adisan</a>
+        </div>
+
+        <nav>
+            <ul class="nav__menu" id="showMenu">
+                <li class="menu__link"><a href="#" class="nav__link">Home</a></li>
+                <li class="menu__link"><a href="#" class="nav__link">About</a></li>
+                <li class="menu__link"><a href="#" class="nav__link">Portfolio</a></li>
+                <li class="menu__link"><a href="#" class="nav__link">Services</a></li>
+                <li class="menu__link"><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="toggle__btn">
+            <input type="checkbox" id="toggle"  onclick="darkBtn()"> 
+            <label for="toggle" class="toggle__inner">
+                <span class="toggle-track">
+                    <span class="toggle-ball"></span>
+                </span>
+            </label>
+        </div>
+    </header>
+
+    <section class="hero-content">
+        <h1>Responsive Light and Dark Navbar</h1>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
