@@ -133,6 +133,7 @@ header {
     font-size: 60px;
     font-weight: 600;
     color: var(--black-color);
+    text-align: center;
 }
 
 /*  ------- BREAK POINTS - 767.98px ------- */
